@@ -39,4 +39,61 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10%;
+  font-family: "DM Sans", sans-serif;
 }
+
+
+
+
+
+/* Blue pannel */
+.blue{
+  width: 100%;
+  margin-top: 8%;
+  /* height: 60vh; */
+  background-color: #EBF5F2;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
+  /* text-align: justify; */
+}
+
+
+.blue .status{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* border: 1px solid black; */
+  /* padding: 50px; */
+  padding-left: 100px;
+  padding-right: 100px;
+
+
+}
+
+.emp{
+  border-left: 2px solid #07393C;
+  height: 200px;width: 100px;
+  margin-left: 100px;
+}
+
+.blue .status h1,p{
+  margin-top: 10px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.status button{
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #C0D05C;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  font-family: "DM Sans", sans-serif;
+}
+
+.status button:hover{
+  cursor: pointer;
+  background-color: #07393C;
+  color: #E0CDA9;
+}
+
+
