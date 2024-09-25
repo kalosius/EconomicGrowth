@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body-items{
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 10%;
+}
+
+.body-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  color: #07393C;
+}
+
+.body-title button{
+    width: 40%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #07393C;
+    transition: all 0.5s ease-in-out;
+}
+
+.body-title button:hover{
+  cursor: pointer;
+  background-color: #C0D05C;
+  border: none;
+}
+
+
+/* Cards */
+.first-two, .second-two{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+}

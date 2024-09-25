@@ -90,6 +90,10 @@ header{
     color: #FFFFE0;
 }
 
+.heading h1{
+    font-size: 50px;
+}
+
 .headimage img{
     height: 400px;
     border-radius: 50%;
@@ -104,4 +108,10 @@ header{
     background-color: #C0D05C;
     color: #07393C;
     border: none;
+    transition: all 0.5s ease-in;
+}
+
+.heading a button:hover{
+    cursor: pointer;
+    background-color: #EBF5F2;
 }
