@@ -126,3 +126,73 @@
   color: #07393C;
   
 }
+
+.purple{
+  padding-left: 5.6%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #87265D;
+  color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  font-size: large;
+}
+
+.purple button, .newshead button{
+  color: #07393C;
+  background-color: #C0D05C;
+  border: none;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.purple button:hover{
+  cursor: pointer;
+  background-color: #EBF5F2;
+}
+
+
+
+/* Nes section */
+
+.news{
+  margin: 5.6%;
+  margin-top: 10%;
+}
+
+.newshead{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.newshead button:hover{
+  cursor: pointer;
+  background-color: #EBF5F2;
+} 
+
+
+.newsarticles{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 5%;
+  /* border-top: 2px solid #07393C; */
+}
+
+.newsarticle1{
+  /* width: 100px; */
+  flex-basis: 50%;
+  /* border: 1px solid red; */
+  margin-left: 30px;
+  border-top: 2px solid #07393C;
+  padding-top: 5%;
+
+
+}
+
+.newsarticle1 h1, h4, p{
+  margin-top: 20px;
+}
+
+
