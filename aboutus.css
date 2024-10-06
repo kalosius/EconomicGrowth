@@ -65,3 +65,30 @@ main{
 .footer-top{
     margin-top: 0 !important;
 }
+
+.blueclass{
+    margin-top: 0 !important;
+    color: #07393C;
+    background-color: #16C5C5;
+    height: 80vh;
+    padding: 8% 10%;
+    font-size: 20px;
+}
+
+.blueclass button{
+    background-color: #C0D05C;
+    color: #07393C;
+    border: none;
+    margin-top: 30px;
+    
+    padding: 20px 50px 20px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.blueclass button:hover{
+    background-color: white;
+    color: #07393C;
+}
