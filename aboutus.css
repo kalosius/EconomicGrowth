@@ -5,3 +5,24 @@
 header{
    background-color: #87265D !important;
 }
+
+main{
+    margin: 5% 10%;
+    color: #07393C;
+}
+
+
+.mission{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #B1C3C2;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    /* flex-wrap: wrap; */
+}
+
+.title, text{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
