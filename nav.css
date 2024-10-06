@@ -24,11 +24,16 @@ header{
     display: inline;
     align-items: center;
     padding-right: 20px;
+    font-size: 20px;
 }
 
 .firstnav ul li a{
     color: white;
     text-decoration: none;
+}
+
+.firstnav ul li a:hover{
+    color: #B1C459;
 }
 
 .firstnav ul li a button{
@@ -58,11 +63,17 @@ header{
 .secondnav ul li{
     display: inline-block;
     padding-right: 30px;
+    font-size: 20px;
 }
 
 .secondnav ul li a{
     text-decoration: none;
     color: #FFFFE0;
+    font-size: 20px;
+}
+
+.secondnav ul li a:hover{
+    color: #B1C459;
 }
 
 .secondnav ul li{
@@ -79,7 +90,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: "DM Sans";
 }
 

@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  line-height: 2;
+  font-family: "DM Sans", sans-serif;
 }
 
 .body-items{
@@ -200,16 +204,36 @@
 
 footer{
   width: 100%;
-  height: 100vh;
+  height: 75vh;
+  /* border: 1px solid red; */
   background-color: #07393C;
+  font-family: "DM Sans", sans-serif;
 }
 
 .footer-top{
   margin: 5.6%;
-  padding-top: 10%;
+  padding-top: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+  /* border: 1px solid red; */
+}
+
+.footer-top ul li, .quik ul li a{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.trade{
+  color: white;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.quik h2, .contact h1, .newsletter h1{
+  margin-bottom: 10px;
 }
 
 
