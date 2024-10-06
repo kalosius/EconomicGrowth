@@ -212,6 +212,7 @@ footer{
 
 .footer-top{
   margin: 5.6%;
+  margin-left: 10%;
   padding-top: 2%;
   display: flex;
   justify-content: space-between;
@@ -232,8 +233,25 @@ footer{
   text-align: center;
 }
 
+
+.quik, .contact, .newsletter{
+  flex-basis: 33%;
+}
+
+
 .quik h2, .contact h1, .newsletter h1{
   margin-bottom: 10px;
+
+}
+
+.newsletter button{
+  background-color: #C0D05C;
+  padding: 20px 40px 20px 40px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
 }
 
 
