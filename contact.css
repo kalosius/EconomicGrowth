@@ -1,0 +1,76 @@
+header{
+    background-color: #EBF6F2;
+    height: 90vh;
+}
+
+.firstnav, .firstnav ul li a, .secondnav ul li a, .secondnav ul li, .heading{
+    color: #06363A !important;
+}
+
+
+/* Form part */
+
+main{
+    margin: 7% 10%;
+}
+
+.contactform{
+    color: #06363A;
+}
+
+form{
+    margin-top: 3%;
+    color: #06363A;
+}
+
+.formlabel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formlabel input{
+    display: block;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    display: block;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.label{
+    flex-basis: 50%;
+}
+
+form button{
+    background-color: #28b87c;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 20px;
+}
+
+.firstcontent{
+    display: block;
+}
+
+.heading{
+    /* border: 1px solid red; */
+    margin-left: 8% ;
+}
+
+.heading h2, .heading h1, .heading p{
+    margin: 0;
+    padding: 0;
+}
